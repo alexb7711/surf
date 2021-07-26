@@ -144,6 +144,7 @@ static Key keys[] = {
 
 	{ 0,                     GDK_KEY_l,      navigate,   { .i = +1 } },
 	{ 0,                     GDK_KEY_h,      navigate,   { .i = -1 } },
+        { MODKEY,                GDK_KEY_w,      playexternal, { 0 } },
 
 	/* vertical and horizontal scrolling, in viewport percentage */
 	{ 0,                     GDK_KEY_j,      scrollv,    { .i = +10 } },
