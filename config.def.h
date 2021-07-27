@@ -196,4 +196,12 @@ static Button buttons[] = {
 	{ OnMedia,      MODKEY,         1,      clickexternplayer, { 0 },       1 },
 };
 
+// Home Page
 #define HOMEPAGE "https://duckduckgo.com/"
+
+// Search Engines
+static SearchEngine searchengines[] =
+{
+  { "g", "http://www.google.de/search?q=%s" } ,
+  { "d", "http://www.duckduckgo.com/?q=%s"  } ,
+} ;
