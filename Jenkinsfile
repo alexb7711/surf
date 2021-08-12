@@ -11,7 +11,7 @@ pipeline {
 			steps {
 				echo 'building'
 				make clean
-				make
+				make all
 			}
 		}
 	}
