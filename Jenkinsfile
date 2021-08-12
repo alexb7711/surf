@@ -4,8 +4,8 @@ pipeline {
 		stage('build') {
 			steps {
 				echo 'building'
-				make clean
-				make all
+				sh 'make clean'
+				sh 'make all'
 			}
 		}
 	}
