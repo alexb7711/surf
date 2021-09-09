@@ -109,11 +109,11 @@ static WebKitFindOptions findopts = WEBKIT_FIND_OPTIONS_CASE_INSENSITIVE |
  */
 static SiteSpecific styles[] = {
 	/* regexp               file in $styledir */
-	// { ".*",                 "default.css" },
-        { ".*duckduckgo.com.*" , "invert.css" } ,
-        { ".*suckless.org.*"   , "invert.css" } ,
-        { ".*wikipedia.org.*"  , "invert.css" } ,
-};
+	// { ".*"              , "default.css"  } ,
+        { ".*duckduckgo.com.*" , "invert.css"   } ,
+        { ".*suckless.org.*"   , "invert.css"   } ,
+        { ".*wikipedia.org.*"  , "invert.css"   } ,
+                                                } ;
 
 /* certificates */
 /*
